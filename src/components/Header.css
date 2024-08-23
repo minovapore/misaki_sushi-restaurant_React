@@ -1,0 +1,12 @@
+.hero-img{
+ background-image: url(../assets/img/hero.png);
+ height: 575px;
+ background-repeat: no-repeat;
+ background-position: center;
+}
+
+.button{
+    background-color: #ff0000;
+    padding: 12px;
+    /* border-radius: 8px; */
+}
