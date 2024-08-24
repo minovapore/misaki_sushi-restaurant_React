@@ -1,0 +1,9 @@
+.img{
+    width: 250px;
+    height: 250px;
+}
+
+.bg-card{
+    background: black;
+    /* backdrop-filter: blur(10px); */
+}

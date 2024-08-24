@@ -1,7 +1,9 @@
-import CardsSections from "./CardsSecton";
+import CardsSections from "./CardsSection";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
-import Section from "./components/Section";
+import HomeSection from "./components/HomeSection";
+import HomeSection2 from "./components/HomeSection2";
+import Footer from "./components/Footer";
 
 
 export default function App() {
@@ -9,8 +11,10 @@ export default function App() {
     <>
       <Navbar/>
       <Header/>
+      <HomeSection/>
       <CardsSections/>
-      <Section/>
+      <HomeSection2/>
+      <Footer/>
     </>
   );
 }
