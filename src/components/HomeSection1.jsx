@@ -2,11 +2,11 @@ import './HomeSection1.css';
 
 export default function CardSection(props){
     return(
-        <div className="card card-compact bg-card w-96 shadow-2xl rounded-none border-card my-5">
+        <div className="mx-auto card card-compact bg-card shadow-2xl rounded-none border-card xl:w-96 xl:my-0 md:my-0 my-3">
             <figure>
                 <img className='img'
                 src={props.image}
-                alt="Shoes" />
+                alt="" />
             </figure>
             <div className="card-body">
                 <h2 className="text-xl font-bold text-center text-white">{props.title}</h2>
