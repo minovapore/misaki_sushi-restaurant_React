@@ -5,13 +5,13 @@ import youtube from '../assets/img/youtube.png'
 
 export default function Footer(){
     return(
-        <footer class="w-screen footer footer-center bg-black text-white p-10">
+        <footer className="w-screen footer footer-center bg-black text-white p-10">
             <aside>
                 <img src={logo} alt="" />
                 <p>Copyright © {new Date().getFullYear()} - Misaki sushi&restaurant</p>
             </aside>
             <nav>
-                <div class="grid grid-flow-col gap-4">
+                <div className="grid grid-flow-col gap-4">
                     <a>
                        <img src={instagram} alt="instagram" />
                     </a>

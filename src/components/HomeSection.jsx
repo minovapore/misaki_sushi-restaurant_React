@@ -1,6 +1,8 @@
 import './HomeSection.css';
 import interno from '../assets/img/interno.jpg';
 import piatto from '../assets/img/piatto.png';
+import HomeSection2 from './HomeSection2';
+import CardsSection from '../CardsSection';
 
 export default function Section(){
     return (
@@ -30,6 +32,8 @@ export default function Section(){
                <p className='xl:text-3xl md:text-2xl text-3xl text-end my-3'>La massima attenzione nello scegliere solo ingredienti freschissimi, osservando rigorosamente tutti gli alti standard di legge.</p>
             </div>
         </div>
+        <CardsSection/>
+        <HomeSection2/>
         </>
     );
 }

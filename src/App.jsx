@@ -1,20 +1,16 @@
-import CardsSections from "./CardsSection";
 import Header from "./components/Header";
-import Navbar from "./components/Navbar";
 import HomeSection from "./components/HomeSection";
-import HomeSection2 from "./components/HomeSection2";
-import Footer from "./components/Footer";
+import MainLayout from "./layout/MainLayout";
 
 
 export default function App() {
   return(
     <>
-      <Navbar/>
+    <MainLayout>
       <Header/>
       <HomeSection/>
-      <CardsSections/>
-      <HomeSection2/>
-      <Footer/>
+    </MainLayout>
+      
     </>
   );
 }
