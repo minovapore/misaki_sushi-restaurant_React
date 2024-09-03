@@ -1,23 +1,3 @@
-// import delivery from './assets/img/delivery.png';
-// import takeAway from './assets/img/take away.png';
-
-// export const CARDS = [
-//     {
-//       image: delivery,
-//       title: 'Delivery',
-//       description:
-//         'Leggi il menu, aggiungi i prodotti scelti, nome cognome e orario di consegna. Chiamaci, ti risponderemo velocemente.',
-//         button: 'PRENOTA IL TUO TAKE AWAY',
-//     },
-//     {
-//       image: takeAway,
-//       title: 'Take away',
-//       description:
-//         'Leggi il menu, aggiungi i prodotti scelti,  ti risponderemo velocemente per fornirti l’orario concordato per il ritiro. Non aspettare vieni personalmente. ',
-//       button: 'ORDINA IL TUO DELIVERY',
-//     }
-//   ];
-
   //SUSHI MENU
   import californiaRoll from './assets/sushi-img/california-roll.png';
   import ebiNigiri from './assets/sushi-img/ebi-nigiri.jpg';

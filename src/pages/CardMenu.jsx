@@ -3,7 +3,7 @@ import './CardMenu.css';
 export default function CardMenu(props) {
   return (
     <div className='xl:ms-14 mt-5'>
-      <div className="menu-card md:w-72 md:h-96 w-48 h-80 mx-auto xl:ms-5 mb-5 bg-black">
+      <div className="menu-card  md:w-72 md:h-96 w-48 h-80 mx-auto xl:ms-5 mb-5 bg-black">
         <a onClick={() => document.getElementById(`my_modal_4${props.id}`).showModal()}>
             <img className='flex items-center my-10' src={props.image} alt="image" />
             <h4 className="title-card h-24 flex justify-center items-center text-white xl:text-3xl md:text-3xl text-xl font-semibold">{props.name}</h4>

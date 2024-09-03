@@ -4,6 +4,7 @@ import App from './App.jsx'
 import Menu from './pages/Menu.jsx';
 import Dolci from './pages/Dolci.jsx';
 import Bevande from './pages/Bevande.jsx';
+import Form from './pages/Form.jsx';
 import './index.css'
 
 import {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: "bevande",
     element: <Bevande/>,
+  },
+  {
+    path: "prenota",
+    element: <Form/>,
   },
 ]);
 
