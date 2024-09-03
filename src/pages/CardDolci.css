@@ -1,0 +1,17 @@
+.dolci-card{
+    width: 350px;
+    height: 450px;
+    border: 3px solid red;
+ }
+
+ .dolci-card:hover{
+    transform: scale(1.1);
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.title-card{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0));
+}
+
+

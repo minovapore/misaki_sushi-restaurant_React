@@ -2,6 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import Menu from './pages/Menu.jsx';
+import Dolci from './pages/Dolci.jsx';
+import Bevande from './pages/Bevande.jsx';
 import './index.css'
 
 import {
@@ -17,6 +19,14 @@ const router = createBrowserRouter([
   {
     path: "menù",
     element: <Menu/>,
+  },
+  {
+    path: "dolci",
+    element: <Dolci/>,
+  },
+  {
+    path: "bevande",
+    element: <Bevande/>,
   },
 ]);
 

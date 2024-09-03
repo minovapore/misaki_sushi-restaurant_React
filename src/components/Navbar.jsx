@@ -12,8 +12,8 @@ export default function Navbar(){
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1 text-lg">
                 <li><Link to='/menù'>Menù</Link></li>
-                <li><a>Dolci</a></li>
-                <li><a>Bevande</a></li>
+                <li><Link to='/dolci'>Dolci</Link></li>
+                <li><Link to='/bevande'>Bevande</Link></li>
             </ul>
           </div>
           <div className="navbar-end">
@@ -60,8 +60,8 @@ export default function Navbar(){
             <div className="modal-box rounded-none bg-black text-white text-center grid grid-cols-2">
               <ul tabIndex="0" className='text-start ms-5'>
                 <li><Link to='/menù'>Menù</Link></li>
-                <li className='my-4'><a>Dolci</a></li>
-                <li><a>Bevande</a></li>
+                <li className='my-4'><Link to='/dolci'>Dolci</Link></li>
+                <li><Link to='/bevande'>Bevande</Link></li>
               </ul>
               <div>
                 <img className='w-28 mx-auto' src={icon} alt="" />

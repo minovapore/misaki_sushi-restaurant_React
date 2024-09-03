@@ -1,0 +1,13 @@
+.dolci-banner-img{
+    /* background-image: url(../assets/img/hero.png);
+    height: 575px; */
+    background-repeat: no-repeat;
+    background-position: center;
+   
+   }
+   @media screen and (min-width:768px){
+       .dolci-banner-img{
+           background-image: url();
+           height: 575px;
+       }
+   }
