@@ -5,7 +5,7 @@ import './Navbar.css';
 
 export default function Navbar(){
     return(
-        <div className="navbar bg-black text-white w-screen">
+        <div className="navbar bg-black text-white w-full">
           <div className="navbar-start">
            <Link to='/'><img className='logo-size' src={logo} alt="misaki-logo" /></Link>
           </div>
