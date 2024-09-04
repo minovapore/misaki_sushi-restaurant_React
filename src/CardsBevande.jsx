@@ -10,7 +10,7 @@ export default function CardsBevande(){
                 <h1 className="text-8xl font-bold design-underline text-black">BIBITE</h1>
             </div>
             <ul className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-3 w-11/12 mx-auto xl:gap-10 md:gap-5">
-                {BEVANDE.map((item)=>(<CardBevande key={item.name} {...item}/>))}
+                {BEVANDE.map((item)=>(<CardBevande key={item.id} {...item}/>))}
             </ul>
         </div>
         {/* BIRRE */}
@@ -19,7 +19,7 @@ export default function CardsBevande(){
             <h1 className="text-8xl font-bold design-underline text-black">BIRRE</h1>
         </div>
         <ul className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-3 w-11/12 mx-auto xl:gap-10 md:gap-5">
-            {BIRRE.map((item)=>(<CardBevande key={item.name} {...item}/>))}
+            {BIRRE.map((item)=>(<CardBevande key={item.id} {...item}/>))}
         </ul>
         </div>
         {/* VINI BIANCHI */}
@@ -28,7 +28,7 @@ export default function CardsBevande(){
             <h1 className="text-8xl font-bold design-underline2 text-black">VINO BIANCO</h1>
         </div>
         <ul className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-3 w-11/12 mx-auto xl:gap-10 md:gap-5">
-            {VINI_BIANCHI.map((item)=>(<CardBevande key={item.name} {...item}/>))}
+            {VINI_BIANCHI.map((item)=>(<CardBevande key={item.id} {...item}/>))}
         </ul>
         </div>
         {/* VINO ROSSO */}
@@ -37,7 +37,7 @@ export default function CardsBevande(){
             <h1 className="text-8xl font-bold design-underline2 text-black">VINO ROSSO</h1>
         </div>
         <ul className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-3 w-11/12 mx-auto xl:gap-10 md:gap-5">
-            {VINI_ROSSI.map((item)=>(<CardBevande key={item.name} {...item}/>))}
+            {VINI_ROSSI.map((item)=>(<CardBevande key={item.id} {...item}/>))}
         </ul>
         </div>
         {/* CHAMPAGNE */}
@@ -46,7 +46,7 @@ export default function CardsBevande(){
             <h1 className="text-8xl font-bold design-underline2 text-black">CHAMPAGNE</h1>
         </div>
         <ul className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-3 w-11/12 mx-auto xl:gap-10 md:gap-5">
-            {CHAMPAGNE.map((item)=>(<CardBevande key={item.name} {...item}/>))}
+            {CHAMPAGNE.map((item)=>(<CardBevande key={item.id} {...item}/>))}
         </ul>
         </div>
      </>

@@ -5,7 +5,7 @@ import youtube from '../assets/img/youtube.png'
 
 export default function Footer(){
     return(
-        <footer className="w-full footer footer-center bg-black text-white p-10">
+        <footer className="w-auto footer footer-center bg-black text-white p-10">
             <aside>
                 <img src={logo} alt="" />
                 <p>Copyright © {new Date().getFullYear()} - Misaki sushi&restaurant</p>

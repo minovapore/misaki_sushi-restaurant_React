@@ -31,7 +31,7 @@ export default function Form(){
 
     return(
         <MainLayout>
-            <div className="md:mt-28 md:mb-44">
+            <div className="md:mt-36 md:mb-44 xl:mt-14">
                 <div className="flex justify-center mt-10 text-center">
                     <h2 className="xl:text-4xl md:text-4xl text-2xl  px-3 font-semibold">Prenota compilando il form qui sotto oppure <br />chiama al numero 347 123 4567</h2>
                 </div>

@@ -5,6 +5,7 @@ import Menu from './pages/Menu.jsx';
 import Dolci from './pages/Dolci.jsx';
 import Bevande from './pages/Bevande.jsx';
 import Form from './pages/Form.jsx';
+import Cart from './pages/Cart.jsx';
 import './index.css'
 
 import {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
   {
     path: "prenota",
     element: <Form/>,
+  },
+  {
+    path: "carrello",
+    element: <Cart/>,
   },
 ]);
 
